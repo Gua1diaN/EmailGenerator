@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Email Generator",
+    "version": "1.0",
+    "description": "Generate a email address based on the current entered email address, and append time on it.",
+    "permissions": ["clipboardWrite", "storage"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
