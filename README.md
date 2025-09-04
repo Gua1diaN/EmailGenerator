@@ -15,19 +15,16 @@ This guide explains how to install and test this extension locally without publi
 1. **Open Extensions page**  
     In the address bar, go to:  
    chrome://extensions/
-
 2. **Enable Developer Mode**  
    Toggle the switch in the top-right corner.
-
-3. **Load the extension**  
+3. **Build the extension**  
    run `yarn build` and a `dist` folder will be generated
+4. **Load the extension**  
    Click **Load unpacked** and select this project’s folder (`dist` folder, the one containing `manifest.json`).
-
-4. **Verify installation**  
+5. **Verify installation**  
    The extension should now appear in your extensions list.  
    If the manifest defines a browser action, its icon will show up in the toolbar.
-
-5. **Reload after changes**  
+6. **Reload after changes**  
    If you edit any code, go back to the extensions page and click **Reload** under the extension.
 
 ---
@@ -37,10 +34,8 @@ This guide explains how to install and test this extension locally without publi
 1. **Open Debugging page**  
     In the address bar, go to:
    about:debugging#/runtime/this-firefox
-
 2. **Load the extension**  
    Click **Load Temporary Add-on** and select the `manifest.json` file in this project.
-
 3. **Verify installation**  
    The extension will be active until the browser is closed.  
    For permanent use, it must be signed and packaged via Mozilla Add-ons.
