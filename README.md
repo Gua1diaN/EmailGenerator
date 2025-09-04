@@ -20,7 +20,8 @@ This guide explains how to install and test this extension locally without publi
    Toggle the switch in the top-right corner.
 
 3. **Load the extension**  
-   Click **Load unpacked** and select this project’s folder (the one containing `manifest.json`).
+   run `yarn build` and a `dist` folder will be generated
+   Click **Load unpacked** and select this project’s folder (`dist` folder, the one containing `manifest.json`).
 
 4. **Verify installation**  
    The extension should now appear in your extensions list.  
